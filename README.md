@@ -1,5 +1,5 @@
 # 简介
-CFSecurityCodeButton 是一个简约的验证码按钮, 本功能完全参考[summertian4/CFSecurityCodeButton](https://github.com/summertian4/CFSecurityCodeButton)源码进行仿写。
+XSSecurityCodeButton 是一个简约的验证码按钮, 本功能完全参考[summertian4/CFSecurityCodeButton](https://github.com/summertian4/CFSecurityCodeButton)源码进行仿写。
 
 ![XSSecurityCodeButton演示](http://7xnrog.com1.z0.glb.clouddn.com/github_iOS-CFSecurityCodeButton-show.gif)
 
