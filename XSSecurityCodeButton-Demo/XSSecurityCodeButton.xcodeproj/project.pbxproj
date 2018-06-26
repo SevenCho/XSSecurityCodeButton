@@ -16,10 +16,10 @@
 		A109592920E21B6000C2FFCA /* XSSecurityCodeButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A109592820E21B6000C2FFCA /* XSSecurityCodeButtonTests.m */; };
 		A109593420E21B6000C2FFCA /* XSSecurityCodeButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A109593320E21B6000C2FFCA /* XSSecurityCodeButtonUITests.m */; };
 		A109594520E21BC300C2FFCA /* XSSecurityCodeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A109594420E21BC300C2FFCA /* XSSecurityCodeButton.m */; };
-		A109594B20E221EB00C2FFCA /* UIColor+XSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A109594A20E221EB00C2FFCA /* UIColor+XSColor.m */; };
-		A109594E20E2220F00C2FFCA /* NSTimer+XSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A109594D20E2220F00C2FFCA /* NSTimer+XSTimer.m */; };
-		A109595420E2227300C2FFCA /* NSString+XSTextSize.m in Sources */ = {isa = PBXBuildFile; fileRef = A109595320E2227300C2FFCA /* NSString+XSTextSize.m */; };
-		A109595720E227F500C2FFCA /* UIImage+XSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A109595620E227F500C2FFCA /* UIImage+XSImage.m */; };
+		A109596320E23FD900C2FFCA /* NSString+XSTextSize.m in Sources */ = {isa = PBXBuildFile; fileRef = A109595C20E23FD900C2FFCA /* NSString+XSTextSize.m */; };
+		A109596420E23FD900C2FFCA /* UIImage+XSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A109596020E23FD900C2FFCA /* UIImage+XSImage.m */; };
+		A109596520E23FD900C2FFCA /* UIColor+XSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A109596120E23FD900C2FFCA /* UIColor+XSColor.m */; };
+		A109596620E23FD900C2FFCA /* NSTimer+XSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A109596220E23FD900C2FFCA /* NSTimer+XSTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,14 +58,14 @@
 		A109593520E21B6000C2FFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A109594320E21BC300C2FFCA /* XSSecurityCodeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSSecurityCodeButton.h; sourceTree = "<group>"; };
 		A109594420E21BC300C2FFCA /* XSSecurityCodeButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSSecurityCodeButton.m; sourceTree = "<group>"; };
-		A109594920E221EB00C2FFCA /* UIColor+XSColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+XSColor.h"; sourceTree = "<group>"; };
-		A109594A20E221EB00C2FFCA /* UIColor+XSColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XSColor.m"; sourceTree = "<group>"; };
-		A109594C20E2220F00C2FFCA /* NSTimer+XSTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+XSTimer.h"; sourceTree = "<group>"; };
-		A109594D20E2220F00C2FFCA /* NSTimer+XSTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+XSTimer.m"; sourceTree = "<group>"; };
-		A109595220E2227300C2FFCA /* NSString+XSTextSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+XSTextSize.h"; sourceTree = "<group>"; };
-		A109595320E2227300C2FFCA /* NSString+XSTextSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+XSTextSize.m"; sourceTree = "<group>"; };
-		A109595520E227F500C2FFCA /* UIImage+XSImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+XSImage.h"; sourceTree = "<group>"; };
-		A109595620E227F500C2FFCA /* UIImage+XSImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XSImage.m"; sourceTree = "<group>"; };
+		A109595B20E23FD900C2FFCA /* UIImage+XSImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XSImage.h"; sourceTree = "<group>"; };
+		A109595C20E23FD900C2FFCA /* NSString+XSTextSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XSTextSize.m"; sourceTree = "<group>"; };
+		A109595D20E23FD900C2FFCA /* UIColor+XSColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XSColor.h"; sourceTree = "<group>"; };
+		A109595E20E23FD900C2FFCA /* NSTimer+XSTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+XSTimer.h"; sourceTree = "<group>"; };
+		A109595F20E23FD900C2FFCA /* NSString+XSTextSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XSTextSize.h"; sourceTree = "<group>"; };
+		A109596020E23FD900C2FFCA /* UIImage+XSImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XSImage.m"; sourceTree = "<group>"; };
+		A109596120E23FD900C2FFCA /* UIColor+XSColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XSColor.m"; sourceTree = "<group>"; };
+		A109596220E23FD900C2FFCA /* NSTimer+XSTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+XSTimer.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +116,6 @@
 		A109590E20E21B5E00C2FFCA /* XSSecurityCodeButton */ = {
 			isa = PBXGroup;
 			children = (
-				A109595920E236E100C2FFCA /* Categories */,
 				A109594220E21BB100C2FFCA /* XSSecurityCodeButton */,
 				A109590F20E21B5E00C2FFCA /* AppDelegate.h */,
 				A109591020E21B5E00C2FFCA /* AppDelegate.m */,
@@ -160,23 +159,24 @@
 		A109594220E21BB100C2FFCA /* XSSecurityCodeButton */ = {
 			isa = PBXGroup;
 			children = (
+				A109595A20E23FD900C2FFCA /* Categories */,
 				A109594320E21BC300C2FFCA /* XSSecurityCodeButton.h */,
 				A109594420E21BC300C2FFCA /* XSSecurityCodeButton.m */,
 			);
 			path = XSSecurityCodeButton;
 			sourceTree = "<group>";
 		};
-		A109595920E236E100C2FFCA /* Categories */ = {
+		A109595A20E23FD900C2FFCA /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				A109594920E221EB00C2FFCA /* UIColor+XSColor.h */,
-				A109594A20E221EB00C2FFCA /* UIColor+XSColor.m */,
-				A109595520E227F500C2FFCA /* UIImage+XSImage.h */,
-				A109595620E227F500C2FFCA /* UIImage+XSImage.m */,
-				A109595220E2227300C2FFCA /* NSString+XSTextSize.h */,
-				A109595320E2227300C2FFCA /* NSString+XSTextSize.m */,
-				A109594C20E2220F00C2FFCA /* NSTimer+XSTimer.h */,
-				A109594D20E2220F00C2FFCA /* NSTimer+XSTimer.m */,
+				A109595B20E23FD900C2FFCA /* UIImage+XSImage.h */,
+				A109595C20E23FD900C2FFCA /* NSString+XSTextSize.m */,
+				A109595D20E23FD900C2FFCA /* UIColor+XSColor.h */,
+				A109595E20E23FD900C2FFCA /* NSTimer+XSTimer.h */,
+				A109595F20E23FD900C2FFCA /* NSString+XSTextSize.h */,
+				A109596020E23FD900C2FFCA /* UIImage+XSImage.m */,
+				A109596120E23FD900C2FFCA /* UIColor+XSColor.m */,
+				A109596220E23FD900C2FFCA /* NSTimer+XSTimer.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -311,13 +311,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A109594B20E221EB00C2FFCA /* UIColor+XSColor.m in Sources */,
+				A109596420E23FD900C2FFCA /* UIImage+XSImage.m in Sources */,
 				A109591420E21B5E00C2FFCA /* ViewController.m in Sources */,
 				A109591F20E21B6000C2FFCA /* main.m in Sources */,
-				A109594E20E2220F00C2FFCA /* NSTimer+XSTimer.m in Sources */,
-				A109595420E2227300C2FFCA /* NSString+XSTextSize.m in Sources */,
 				A109591120E21B5E00C2FFCA /* AppDelegate.m in Sources */,
-				A109595720E227F500C2FFCA /* UIImage+XSImage.m in Sources */,
+				A109596320E23FD900C2FFCA /* NSString+XSTextSize.m in Sources */,
+				A109596620E23FD900C2FFCA /* NSTimer+XSTimer.m in Sources */,
+				A109596520E23FD900C2FFCA /* UIColor+XSColor.m in Sources */,
 				A109594520E21BC300C2FFCA /* XSSecurityCodeButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

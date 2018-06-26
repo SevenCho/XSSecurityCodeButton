@@ -69,8 +69,8 @@ CFSecurityCodeButton 是一个简约的验证码按钮, 本功能完全参考[su
 	提供了两个代理方法监控按钮
 	
 	```objc
-	- (void)didClickedSecurityCodeButton:(XSSecurityCodeButton *)SecurityCodeButton;;
-- (void)timingEndedOfSecurityCodeButton:(XSSecurityCodeButton *)SecurityCodeButton;
+	- (void)didClickedSecurityCodeButton:(XSSecurityCodeButton *)SecurityCodeButton;
+    - (void)timingEndedOfSecurityCodeButton:(XSSecurityCodeButton *)SecurityCodeButton;
 	```
 	只需要实现 `XSSecurityCodeButtonDelegate`，重写代理方法
 
