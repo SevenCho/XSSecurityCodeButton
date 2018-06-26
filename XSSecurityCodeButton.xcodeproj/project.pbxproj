@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A109591120E21B5E00C2FFCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A109591020E21B5E00C2FFCA /* AppDelegate.m */; };
+		A109591420E21B5E00C2FFCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A109591320E21B5E00C2FFCA /* ViewController.m */; };
+		A109591720E21B5E00C2FFCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A109591520E21B5E00C2FFCA /* Main.storyboard */; };
+		A109591920E21B6000C2FFCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A109591820E21B6000C2FFCA /* Assets.xcassets */; };
+		A109591C20E21B6000C2FFCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A109591A20E21B6000C2FFCA /* LaunchScreen.storyboard */; };
+		A109591F20E21B6000C2FFCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A109591E20E21B6000C2FFCA /* main.m */; };
+		A109592920E21B6000C2FFCA /* XSSecurityCodeButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A109592820E21B6000C2FFCA /* XSSecurityCodeButtonTests.m */; };
+		A109593420E21B6000C2FFCA /* XSSecurityCodeButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A109593320E21B6000C2FFCA /* XSSecurityCodeButtonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A109592520E21B6000C2FFCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A109590420E21B5E00C2FFCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A109590B20E21B5E00C2FFCA;
+			remoteInfo = XSSecurityCodeButton;
+		};
+		A109593020E21B6000C2FFCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A109590420E21B5E00C2FFCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A109590B20E21B5E00C2FFCA;
+			remoteInfo = XSSecurityCodeButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A109590C20E21B5E00C2FFCA /* XSSecurityCodeButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XSSecurityCodeButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A109590F20E21B5E00C2FFCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A109591020E21B5E00C2FFCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A109591220E21B5E00C2FFCA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A109591320E21B5E00C2FFCA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A109591620E21B5E00C2FFCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A109591820E21B6000C2FFCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A109591B20E21B6000C2FFCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A109591D20E21B6000C2FFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A109591E20E21B6000C2FFCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A109592420E21B6000C2FFCA /* XSSecurityCodeButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XSSecurityCodeButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A109592820E21B6000C2FFCA /* XSSecurityCodeButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSSecurityCodeButtonTests.m; sourceTree = "<group>"; };
+		A109592A20E21B6000C2FFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A109592F20E21B6000C2FFCA /* XSSecurityCodeButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XSSecurityCodeButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A109593320E21B6000C2FFCA /* XSSecurityCodeButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSSecurityCodeButtonUITests.m; sourceTree = "<group>"; };
+		A109593520E21B6000C2FFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A109590920E21B5E00C2FFCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A109592120E21B6000C2FFCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A109592C20E21B6000C2FFCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A109590320E21B5E00C2FFCA = {
+			isa = PBXGroup;
+			children = (
+				A109590E20E21B5E00C2FFCA /* XSSecurityCodeButton */,
+				A109592720E21B6000C2FFCA /* XSSecurityCodeButtonTests */,
+				A109593220E21B6000C2FFCA /* XSSecurityCodeButtonUITests */,
+				A109590D20E21B5E00C2FFCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A109590D20E21B5E00C2FFCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A109590C20E21B5E00C2FFCA /* XSSecurityCodeButton.app */,
+				A109592420E21B6000C2FFCA /* XSSecurityCodeButtonTests.xctest */,
+				A109592F20E21B6000C2FFCA /* XSSecurityCodeButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A109590E20E21B5E00C2FFCA /* XSSecurityCodeButton */ = {
+			isa = PBXGroup;
+			children = (
+				A109590F20E21B5E00C2FFCA /* AppDelegate.h */,
+				A109591020E21B5E00C2FFCA /* AppDelegate.m */,
+				A109591220E21B5E00C2FFCA /* ViewController.h */,
+				A109591320E21B5E00C2FFCA /* ViewController.m */,
+				A109591520E21B5E00C2FFCA /* Main.storyboard */,
+				A109591820E21B6000C2FFCA /* Assets.xcassets */,
+				A109591A20E21B6000C2FFCA /* LaunchScreen.storyboard */,
+				A109591D20E21B6000C2FFCA /* Info.plist */,
+				A109591E20E21B6000C2FFCA /* main.m */,
+			);
+			path = XSSecurityCodeButton;
+			sourceTree = "<group>";
+		};
+		A109592720E21B6000C2FFCA /* XSSecurityCodeButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				A109592820E21B6000C2FFCA /* XSSecurityCodeButtonTests.m */,
+				A109592A20E21B6000C2FFCA /* Info.plist */,
+			);
+			path = XSSecurityCodeButtonTests;
+			sourceTree = "<group>";
+		};
+		A109593220E21B6000C2FFCA /* XSSecurityCodeButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A109593320E21B6000C2FFCA /* XSSecurityCodeButtonUITests.m */,
+				A109593520E21B6000C2FFCA /* Info.plist */,
+			);
+			path = XSSecurityCodeButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A109590B20E21B5E00C2FFCA /* XSSecurityCodeButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A109593820E21B6000C2FFCA /* Build configuration list for PBXNativeTarget "XSSecurityCodeButton" */;
+			buildPhases = (
+				A109590820E21B5E00C2FFCA /* Sources */,
+				A109590920E21B5E00C2FFCA /* Frameworks */,
+				A109590A20E21B5E00C2FFCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XSSecurityCodeButton;
+			productName = XSSecurityCodeButton;
+			productReference = A109590C20E21B5E00C2FFCA /* XSSecurityCodeButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A109592320E21B6000C2FFCA /* XSSecurityCodeButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A109593B20E21B6000C2FFCA /* Build configuration list for PBXNativeTarget "XSSecurityCodeButtonTests" */;
+			buildPhases = (
+				A109592020E21B6000C2FFCA /* Sources */,
+				A109592120E21B6000C2FFCA /* Frameworks */,
+				A109592220E21B6000C2FFCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A109592620E21B6000C2FFCA /* PBXTargetDependency */,
+			);
+			name = XSSecurityCodeButtonTests;
+			productName = XSSecurityCodeButtonTests;
+			productReference = A109592420E21B6000C2FFCA /* XSSecurityCodeButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A109592E20E21B6000C2FFCA /* XSSecurityCodeButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A109593E20E21B6000C2FFCA /* Build configuration list for PBXNativeTarget "XSSecurityCodeButtonUITests" */;
+			buildPhases = (
+				A109592B20E21B6000C2FFCA /* Sources */,
+				A109592C20E21B6000C2FFCA /* Frameworks */,
+				A109592D20E21B6000C2FFCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A109593120E21B6000C2FFCA /* PBXTargetDependency */,
+			);
+			name = XSSecurityCodeButtonUITests;
+			productName = XSSecurityCodeButtonUITests;
+			productReference = A109592F20E21B6000C2FFCA /* XSSecurityCodeButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A109590420E21B5E00C2FFCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "曹雪松";
+				TargetAttributes = {
+					A109590B20E21B5E00C2FFCA = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					A109592320E21B6000C2FFCA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = A109590B20E21B5E00C2FFCA;
+					};
+					A109592E20E21B6000C2FFCA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = A109590B20E21B5E00C2FFCA;
+					};
+				};
+			};
+			buildConfigurationList = A109590720E21B5E00C2FFCA /* Build configuration list for PBXProject "XSSecurityCodeButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A109590320E21B5E00C2FFCA;
+			productRefGroup = A109590D20E21B5E00C2FFCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A109590B20E21B5E00C2FFCA /* XSSecurityCodeButton */,
+				A109592320E21B6000C2FFCA /* XSSecurityCodeButtonTests */,
+				A109592E20E21B6000C2FFCA /* XSSecurityCodeButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A109590A20E21B5E00C2FFCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A109591C20E21B6000C2FFCA /* LaunchScreen.storyboard in Resources */,
+				A109591920E21B6000C2FFCA /* Assets.xcassets in Resources */,
+				A109591720E21B5E00C2FFCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A109592220E21B6000C2FFCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A109592D20E21B6000C2FFCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A109590820E21B5E00C2FFCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A109591420E21B5E00C2FFCA /* ViewController.m in Sources */,
+				A109591F20E21B6000C2FFCA /* main.m in Sources */,
+				A109591120E21B5E00C2FFCA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A109592020E21B6000C2FFCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A109592920E21B6000C2FFCA /* XSSecurityCodeButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A109592B20E21B6000C2FFCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A109593420E21B6000C2FFCA /* XSSecurityCodeButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A109592620E21B6000C2FFCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A109590B20E21B5E00C2FFCA /* XSSecurityCodeButton */;
+			targetProxy = A109592520E21B6000C2FFCA /* PBXContainerItemProxy */;
+		};
+		A109593120E21B6000C2FFCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A109590B20E21B5E00C2FFCA /* XSSecurityCodeButton */;
+			targetProxy = A109593020E21B6000C2FFCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A109591520E21B5E00C2FFCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A109591620E21B5E00C2FFCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A109591A20E21B6000C2FFCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A109591B20E21B6000C2FFCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A109593620E21B6000C2FFCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A109593720E21B6000C2FFCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A109593920E21B6000C2FFCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NSXWD9BJ9H;
+				INFOPLIST_FILE = XSSecurityCodeButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kydz-wx.XSSecurityCodeButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A109593A20E21B6000C2FFCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NSXWD9BJ9H;
+				INFOPLIST_FILE = XSSecurityCodeButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kydz-wx.XSSecurityCodeButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A109593C20E21B6000C2FFCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NSXWD9BJ9H;
+				INFOPLIST_FILE = XSSecurityCodeButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kydz-wx.XSSecurityCodeButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XSSecurityCodeButton.app/XSSecurityCodeButton";
+			};
+			name = Debug;
+		};
+		A109593D20E21B6000C2FFCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NSXWD9BJ9H;
+				INFOPLIST_FILE = XSSecurityCodeButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kydz-wx.XSSecurityCodeButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XSSecurityCodeButton.app/XSSecurityCodeButton";
+			};
+			name = Release;
+		};
+		A109593F20E21B6000C2FFCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NSXWD9BJ9H;
+				INFOPLIST_FILE = XSSecurityCodeButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kydz-wx.XSSecurityCodeButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XSSecurityCodeButton;
+			};
+			name = Debug;
+		};
+		A109594020E21B6000C2FFCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NSXWD9BJ9H;
+				INFOPLIST_FILE = XSSecurityCodeButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kydz-wx.XSSecurityCodeButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XSSecurityCodeButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A109590720E21B5E00C2FFCA /* Build configuration list for PBXProject "XSSecurityCodeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A109593620E21B6000C2FFCA /* Debug */,
+				A109593720E21B6000C2FFCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A109593820E21B6000C2FFCA /* Build configuration list for PBXNativeTarget "XSSecurityCodeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A109593920E21B6000C2FFCA /* Debug */,
+				A109593A20E21B6000C2FFCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A109593B20E21B6000C2FFCA /* Build configuration list for PBXNativeTarget "XSSecurityCodeButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A109593C20E21B6000C2FFCA /* Debug */,
+				A109593D20E21B6000C2FFCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A109593E20E21B6000C2FFCA /* Build configuration list for PBXNativeTarget "XSSecurityCodeButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A109593F20E21B6000C2FFCA /* Debug */,
+				A109594020E21B6000C2FFCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A109590420E21B5E00C2FFCA /* Project object */;
+}
