@@ -15,6 +15,11 @@
 		A109591F20E21B6000C2FFCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A109591E20E21B6000C2FFCA /* main.m */; };
 		A109592920E21B6000C2FFCA /* XSSecurityCodeButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A109592820E21B6000C2FFCA /* XSSecurityCodeButtonTests.m */; };
 		A109593420E21B6000C2FFCA /* XSSecurityCodeButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A109593320E21B6000C2FFCA /* XSSecurityCodeButtonUITests.m */; };
+		A109594520E21BC300C2FFCA /* XSSecurityCodeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A109594420E21BC300C2FFCA /* XSSecurityCodeButton.m */; };
+		A109594B20E221EB00C2FFCA /* UIColor+XSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A109594A20E221EB00C2FFCA /* UIColor+XSColor.m */; };
+		A109594E20E2220F00C2FFCA /* NSTimer+XSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A109594D20E2220F00C2FFCA /* NSTimer+XSTimer.m */; };
+		A109595420E2227300C2FFCA /* NSString+XSTextSize.m in Sources */ = {isa = PBXBuildFile; fileRef = A109595320E2227300C2FFCA /* NSString+XSTextSize.m */; };
+		A109595720E227F500C2FFCA /* UIImage+XSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A109595620E227F500C2FFCA /* UIImage+XSImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		A109592F20E21B6000C2FFCA /* XSSecurityCodeButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XSSecurityCodeButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A109593320E21B6000C2FFCA /* XSSecurityCodeButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSSecurityCodeButtonUITests.m; sourceTree = "<group>"; };
 		A109593520E21B6000C2FFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A109594320E21BC300C2FFCA /* XSSecurityCodeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSSecurityCodeButton.h; sourceTree = "<group>"; };
+		A109594420E21BC300C2FFCA /* XSSecurityCodeButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSSecurityCodeButton.m; sourceTree = "<group>"; };
+		A109594920E221EB00C2FFCA /* UIColor+XSColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+XSColor.h"; sourceTree = "<group>"; };
+		A109594A20E221EB00C2FFCA /* UIColor+XSColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XSColor.m"; sourceTree = "<group>"; };
+		A109594C20E2220F00C2FFCA /* NSTimer+XSTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+XSTimer.h"; sourceTree = "<group>"; };
+		A109594D20E2220F00C2FFCA /* NSTimer+XSTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+XSTimer.m"; sourceTree = "<group>"; };
+		A109595220E2227300C2FFCA /* NSString+XSTextSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+XSTextSize.h"; sourceTree = "<group>"; };
+		A109595320E2227300C2FFCA /* NSString+XSTextSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+XSTextSize.m"; sourceTree = "<group>"; };
+		A109595520E227F500C2FFCA /* UIImage+XSImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+XSImage.h"; sourceTree = "<group>"; };
+		A109595620E227F500C2FFCA /* UIImage+XSImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XSImage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +116,13 @@
 		A109590E20E21B5E00C2FFCA /* XSSecurityCodeButton */ = {
 			isa = PBXGroup;
 			children = (
+				A109595920E236E100C2FFCA /* Categories */,
+				A109594220E21BB100C2FFCA /* XSSecurityCodeButton */,
 				A109590F20E21B5E00C2FFCA /* AppDelegate.h */,
 				A109591020E21B5E00C2FFCA /* AppDelegate.m */,
 				A109591220E21B5E00C2FFCA /* ViewController.h */,
 				A109591320E21B5E00C2FFCA /* ViewController.m */,
-				A109591520E21B5E00C2FFCA /* Main.storyboard */,
-				A109591820E21B6000C2FFCA /* Assets.xcassets */,
-				A109591A20E21B6000C2FFCA /* LaunchScreen.storyboard */,
-				A109591D20E21B6000C2FFCA /* Info.plist */,
-				A109591E20E21B6000C2FFCA /* main.m */,
+				A109594120E21B7A00C2FFCA /* Supporting Files */,
 			);
 			path = XSSecurityCodeButton;
 			sourceTree = "<group>";
@@ -130,6 +143,42 @@
 				A109593520E21B6000C2FFCA /* Info.plist */,
 			);
 			path = XSSecurityCodeButtonUITests;
+			sourceTree = "<group>";
+		};
+		A109594120E21B7A00C2FFCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A109591520E21B5E00C2FFCA /* Main.storyboard */,
+				A109591820E21B6000C2FFCA /* Assets.xcassets */,
+				A109591A20E21B6000C2FFCA /* LaunchScreen.storyboard */,
+				A109591D20E21B6000C2FFCA /* Info.plist */,
+				A109591E20E21B6000C2FFCA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A109594220E21BB100C2FFCA /* XSSecurityCodeButton */ = {
+			isa = PBXGroup;
+			children = (
+				A109594320E21BC300C2FFCA /* XSSecurityCodeButton.h */,
+				A109594420E21BC300C2FFCA /* XSSecurityCodeButton.m */,
+			);
+			path = XSSecurityCodeButton;
+			sourceTree = "<group>";
+		};
+		A109595920E236E100C2FFCA /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A109594920E221EB00C2FFCA /* UIColor+XSColor.h */,
+				A109594A20E221EB00C2FFCA /* UIColor+XSColor.m */,
+				A109595520E227F500C2FFCA /* UIImage+XSImage.h */,
+				A109595620E227F500C2FFCA /* UIImage+XSImage.m */,
+				A109595220E2227300C2FFCA /* NSString+XSTextSize.h */,
+				A109595320E2227300C2FFCA /* NSString+XSTextSize.m */,
+				A109594C20E2220F00C2FFCA /* NSTimer+XSTimer.h */,
+				A109594D20E2220F00C2FFCA /* NSTimer+XSTimer.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +311,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A109594B20E221EB00C2FFCA /* UIColor+XSColor.m in Sources */,
 				A109591420E21B5E00C2FFCA /* ViewController.m in Sources */,
 				A109591F20E21B6000C2FFCA /* main.m in Sources */,
+				A109594E20E2220F00C2FFCA /* NSTimer+XSTimer.m in Sources */,
+				A109595420E2227300C2FFCA /* NSString+XSTextSize.m in Sources */,
 				A109591120E21B5E00C2FFCA /* AppDelegate.m in Sources */,
+				A109595720E227F500C2FFCA /* UIImage+XSImage.m in Sources */,
+				A109594520E21BC300C2FFCA /* XSSecurityCodeButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,15 +487,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = NSXWD9BJ9H;
 				INFOPLIST_FILE = XSSecurityCodeButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kydz-wx.XSSecurityCodeButton";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "703d1c36-0149-415e-b975-154781696a98";
+				PROVISIONING_PROFILE_SPECIFIER = Seven_development;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -450,15 +507,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = NSXWD9BJ9H;
 				INFOPLIST_FILE = XSSecurityCodeButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kydz-wx.XSSecurityCodeButton";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "703d1c36-0149-415e-b975-154781696a98";
+				PROVISIONING_PROFILE_SPECIFIER = Seven_development;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
