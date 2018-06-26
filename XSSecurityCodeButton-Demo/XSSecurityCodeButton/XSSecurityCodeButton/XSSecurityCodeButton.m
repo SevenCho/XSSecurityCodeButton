@@ -24,7 +24,7 @@
 
 @property (nonatomic, strong) UIColor *color;
 @property (nonatomic, strong) NSTimer *timer;
-@property (nonatomic, assign) NSInteger tempTimeDuration;
+@property (nonatomic, assign) NSTimeInterval tempTimeDuration;
 
 @end
 
@@ -122,7 +122,7 @@ static NSTimeInterval const XSSecurityCodeButtonTimeInterval = 1.0;
             [self.delegate timingEndedOfSecurityCodeButton:self];
         }
     }
-    [self setTitle:[NSString stringWithFormat:@"%@(%ld)", self.disabledTitle, self.tempTimeDuration] forState:UIControlStateDisabled];
+    [self setTitle:[NSString stringWithFormat:@"%@(%ld)", self.disabledTitle, (NSInteger)self.tempTimeDuration] forState:UIControlStateDisabled];
     self.tempTimeDuration--;
 }
 
