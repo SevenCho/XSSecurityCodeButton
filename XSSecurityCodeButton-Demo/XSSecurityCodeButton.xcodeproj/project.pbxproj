@@ -173,10 +173,10 @@
 				A109595C20E23FD900C2FFCA /* NSString+XSTextSize.m */,
 				A109595D20E23FD900C2FFCA /* UIColor+XSColor.h */,
 				A109595E20E23FD900C2FFCA /* NSTimer+XSTimer.h */,
+				A109596220E23FD900C2FFCA /* NSTimer+XSTimer.m */,
 				A109595F20E23FD900C2FFCA /* NSString+XSTextSize.h */,
 				A109596020E23FD900C2FFCA /* UIImage+XSImage.m */,
 				A109596120E23FD900C2FFCA /* UIColor+XSColor.m */,
-				A109596220E23FD900C2FFCA /* NSTimer+XSTimer.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";

@@ -24,7 +24,18 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol XSSecurityCodeButtonDeletate <NSObject>
 
 @optional
+/**
+ 点击倒计时按钮
+
+ @param SecurityCodeButton 倒计时按钮
+ */
 - (void)didClickedSecurityCodeButton:(XSSecurityCodeButton *)SecurityCodeButton;
+
+/**
+ 倒计时结束
+
+ @param SecurityCodeButton 倒计时按钮
+ */
 - (void)timingEndedOfSecurityCodeButton:(XSSecurityCodeButton *)SecurityCodeButton;
 
 @end
@@ -38,12 +49,33 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak) id<XSSecurityCodeButtonDeletate> delegate;
 
 /**
- 通过颜色创建XSSecurityCodeButton
+ 通过颜色创建XSSecurityCodeButton实例
 
- @param buttonColor 主题颜色(用于控制)
- @return securityCodeButton
+ @param buttonColor 主题颜色
+ @return XSSecurityCodeButton实例
  */
 - (instancetype)initWithColor:(UIColor *)buttonColor;
+
+/**
+ 创建XSSecurityCodeButton(默认倒计时60s)
+
+ @param buttonColor 主题颜色
+ @param normalTitle 正常状态显示文字
+ @param disabledTitle 点击后显示文字
+ @return XSSecurityCodeButton实例
+ */
+- (instancetype)initWithColor:(UIColor *)buttonColor normalTitle:(nullable NSString *)normalTitle disabledTitle:(nullable NSString *)disabledTitle;
+
+/**
+ 创建XSSecurityCodeButton实例
+
+ @param buttonColor 主题颜色
+ @param normalTitle 正常状态显示文字
+ @param disabledTitle 点击后显示文字
+ @param timeDuration 倒计时时间(设置为0默认倒计时60s)
+ @return XSSecurityCodeButton实例
+ */
+- (instancetype)initWithColor:(UIColor *)buttonColor normalTitle:(nullable NSString *)normalTitle disabledTitle:(nullable NSString *)disabledTitle timeDuration:(NSTimeInterval)timeDuration;
 
 /** 停止定时器
  */

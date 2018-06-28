@@ -28,8 +28,12 @@
 
 @end
 
-static NSInteger const XSSecurityCodeButtonCornerRadius = 5;
-static NSTimeInterval const XSSecurityCodeButtonTimeInterval = 1.0;
+static NSInteger const kSecurityCodeButtonCornerRadius = 5;
+static NSTimeInterval const kSecurityCodeButtonTimeInterval = 1.0;
+static NSInteger const kSecurityCodeButtonTimingDurationDefault = 60;
+
+static NSString * const kNormalTitleDefault = @"发送验证码";
+static NSString * const kDisabledTitleDefault = @"重新发送";
 
 @implementation XSSecurityCodeButton
 
@@ -41,22 +45,49 @@ static NSTimeInterval const XSSecurityCodeButtonTimeInterval = 1.0;
  */
 - (instancetype)initWithColor:(UIColor *)buttonColor
 {
+    return [self initWithColor:buttonColor normalTitle:kNormalTitleDefault disabledTitle:kDisabledTitleDefault timeDuration:kSecurityCodeButtonTimingDurationDefault];
+}
+
+/**
+ 创建XSSecurityCodeButton
+ 
+ @param buttonColor 主题颜色
+ @param normalTitle 正常状态显示文字
+ @param disabledTitle 点击后显示文字
+ @return XSSecurityCodeButton实例
+ */
+- (instancetype)initWithColor:(UIColor *)buttonColor normalTitle:(nullable NSString *)normalTitle disabledTitle:(nullable NSString *)disabledTitle
+{
+    return [self initWithColor:buttonColor normalTitle:normalTitle disabledTitle:disabledTitle timeDuration:kSecurityCodeButtonTimingDurationDefault];
+}
+
+/**
+ 创建XSSecurityCodeButton实例
+ 
+ @param buttonColor 主题颜色
+ @param normalTitle 正常状态显示文字
+ @param disabledTitle 点击后显示文字
+ @param timeDuration 倒计时时间
+ @return XSSecurityCodeButton实例
+ */
+- (instancetype)initWithColor:(UIColor *)buttonColor normalTitle:(nullable NSString *)normalTitle disabledTitle:(nullable NSString *)disabledTitle timeDuration:(NSTimeInterval)timeDuration
+{
     if (self = [super init]) {
         [self setTitleColor:XSSecurityCodeButtonTitleColorDark forState:UIControlStateNormal];
         [self.titleLabel setFont:XSSecurityCodeButtonFont];
         [self.layer setMasksToBounds:YES];
-        [self.layer setCornerRadius:XSSecurityCodeButtonCornerRadius];
+        [self.layer setCornerRadius:kSecurityCodeButtonCornerRadius];
         UIColor *normalColor = buttonColor;
         UIColor *highlightedColor = [UIColor highlightedOfColor:normalColor];
         [self setBackgroundImage:[UIImage imageWithColor:normalColor] forState:UIControlStateNormal];
         [self setBackgroundImage:[UIImage imageWithColor:highlightedColor] forState:UIControlStateHighlighted];
         [self addTarget:self action:@selector(buttonClicked) forControlEvents:UIControlEventTouchUpInside];
         
-        self.normalTitle = @"发送验证码";
-        self.disabledTitle = @"重新发送";
         self.color = buttonColor;
-        self.timeDuration = 60;
-        self.tempTimeDuration = 60;
+        self.normalTitle = normalTitle.length ? normalTitle : kNormalTitleDefault;
+        self.disabledTitle = disabledTitle.length ? disabledTitle : kDisabledTitleDefault;
+        self.timeDuration = timeDuration ?: kSecurityCodeButtonTimingDurationDefault;
+        self.tempTimeDuration = timeDuration?: kSecurityCodeButtonTimingDurationDefault;;
         
     }
     return self;
@@ -97,7 +128,7 @@ static NSTimeInterval const XSSecurityCodeButtonTimeInterval = 1.0;
 #pragma mark - Timer
 - (void)startTiming
 {
-    self.timer = [NSTimer scheduledTimerWithTimeInterval:XSSecurityCodeButtonTimeInterval
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:kSecurityCodeButtonTimeInterval
                                                  repeats:YES
                                             handlerBlock:^() {
         [self timing];

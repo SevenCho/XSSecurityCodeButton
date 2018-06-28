@@ -46,18 +46,14 @@
     btSecurityCode_Coral.delegate = self;
     [self.view addSubview:btSecurityCode_Coral];
     
-    
-    XSSecurityCodeButton *btSecurityCode_Turquoise = [[XSSecurityCodeButton alloc] initWithColor:XSColorTurquoise];
+    XSSecurityCodeButton *btSecurityCode_Turquoise = [[XSSecurityCodeButton alloc] initWithColor:XSColorTurquoise normalTitle:@"别忘了设置代理" disabledTitle:nil];
     btSecurityCode_Turquoise.frame = CGRectMake(100, 300, 0, 0);
     btSecurityCode_Turquoise.timeDuration = 40;
-    btSecurityCode_Turquoise.normalTitle = @"别忘了设置代理";
     btSecurityCode_Turquoise.delegate = self;
     [self.view addSubview:btSecurityCode_Turquoise];
     
-    XSSecurityCodeButton *btSecurityCode_WarmYellow = [[XSSecurityCodeButton alloc] initWithColor:XSColorWarmYellow];
+    XSSecurityCodeButton *btSecurityCode_WarmYellow = [[XSSecurityCodeButton alloc] initWithColor:XSColorWarmYellow normalTitle:@"根据主题色自动调节文字颜色" disabledTitle:nil timeDuration:0];
     btSecurityCode_WarmYellow.frame = CGRectMake(100, 350, 0, 0);
-    btSecurityCode_WarmYellow.timeDuration = 50;
-    btSecurityCode_WarmYellow.normalTitle = @"根据主题色自动调节文字颜色";
     btSecurityCode_WarmYellow.delegate = self;
     [self.view addSubview:btSecurityCode_WarmYellow];
 }
