@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XSSecurityCodeButton"
-  s.version      = "0.0.1"        # 版本号 与 你仓库的 标签号 对应
+  s.version      = "0.0.2"        # 版本号 与 你仓库的 标签号 对应
   s.summary      = "XSSecurityCodeButton 是一个简约的验证码按钮."
 
   # This description is used to generate tags and improve search results.
@@ -52,8 +52,8 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "SevenCho" => "243166621@qq.com" }
-  # Or just: s.author    = "SevenCho"
+  s.author             = { "CoderBoy" => "243166621@qq.com" }
+  # Or just: s.author    = "CoderBoy"
   # s.authors            = { "SevenCho" => "243166621@qq.com" }
   s.social_media_url   = "https://sevencho.github.io"
 

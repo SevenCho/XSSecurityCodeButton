@@ -15,7 +15,7 @@ XSSecurityCodeButton 是一个简约的验证码按钮, 本功能完全参考[su
 # 安装
 
 1. 手动安装
-    - 将 `XSSecurityCodeButton`文件夹拖入你的项目中导图头文件即可。
+    - 将 `XSSecurityCodeButton`文件夹拖入你的项目中导入头文件即可。
 
 2. CocoaPods
 
